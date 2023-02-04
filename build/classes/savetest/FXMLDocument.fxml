@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savetest.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="31.0" layoutY="36.0" onAction="#addVideo" text="Video" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="button1" layoutX="121.0" layoutY="129.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="79.0" text="Save" />
+      <Button fx:id="button2" layoutX="141.0" layoutY="36.0" onAction="#addText" text="Text" />
+      <Button fx:id="button21" layoutX="216.0" layoutY="36.0" onAction="#addSticker" text="Sticker" />
+      <Button layoutX="31.0" layoutY="108.0" onAction="#undo" text="Undo" />
+      <Button layoutX="31.0" layoutY="142.0" onAction="#redo" text="Redo" />
+    </children>
+</AnchorPane>
